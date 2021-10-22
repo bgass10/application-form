@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+h2 {
+  color: #a8a8a8;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.congrats {
+  color: #b638ff;
+  font-size: 42px;
+  text-align: center;
+}
+.container {
+  background-color: #131313;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 512px;
+  padding-top: 50px;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.containerSubmit {
+  background-color: #131313;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 512px;
+  padding-top: 50px;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.rowMobile {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media (max-width: 640px) {
+  body {
+    background-color: #131313;
+  }
+  .container {
+    margin: 0px;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .containerSubmit {
+    margin: 0px;
+    width: 100%;
+    border-radius: 0px;
+    height: 90vh;
+  }
+  .rowTextLong {
+    margin-right: 30px;
+    flex-wrap: wrap;
+  }
+  .rowMobile {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .congrats {
+    font-size: 32px;
+  }
+  .shift {
+    margin-left: 25px;
+  }
+  .shiftX {
+    margin-left: 50px;
+  }
+}
